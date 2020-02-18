@@ -1,0 +1,36 @@
+<nav class="navbar navbar--shadow" aria-label="Main Navigation">
+  <div class="navbar__inner-wrapper">
+    {# CSS checkbox abuse courtesy of https://codepen.io/erikterwan/pen/EVzeRP #}
+    <div class="navbar__main-nav__mobile-menu">
+      <input id="navbar__main-nav__mobile-menu__toggle--input-id" class="navbar__main-nav__mobile-menu__toggle"
+        type="checkbox" tabindex='0' />
+      <label for="navbar__main-nav__mobile-menu__toggle--input-id"></label>
+      <span class="navbar__main-nav__mobile-menu__hamburger"></span>
+      <span class="navbar__main-nav__mobile-menu__hamburger"></span>
+      <span class="navbar__main-nav__mobile-menu__hamburger"></span>
+      <ul class="navbar__main-nav navbar__main-nav--mobile">
+        <li class="navbar__main-nav__link__outer">
+          <a class="navbar__main-nav__link {{"active" if (base_route == "home")}}" href="/">home</a>
+        </li>
+        <li class="navbar__main-nav__link__outer">
+          <a class="navbar__main-nav__link {{"active" if (base_route == "blog")}}" href="/blog">blog</a>
+        </li>
+        {# <li class="navbar__main-nav__link__outer">
+          <a class="navbar__main-nav__link{{"active" if (base_route == "presentations")}}"
+            href="/presentations">slides</a>
+        </li> #}
+        <div class="navbar__main-nav__mobile-menu--shadow navbar--shadow"></div>
+      </ul>
+    </div>
+    <div class="navbar__logo">
+      <a class="navbar__logo__profile-pic" href="/" aria-label="home">
+        <div role="presentation" class="navbar__logo__profile-pic__img-preview"></div>
+        <div class="img--lazy-load" role="img" aria-label="heapsgood logo" data-src="/heapsgooddev-profile.jpg"></div>
+      </a>
+      <a aria-label="twitter link" rel="noopener" class="navbar__logo__twitter-link external-icon--exempt"
+        href="https://twitter.com/heapsgooddev" target="_blank">
+        {% include 'icons/_twitter.html' %}
+      </a>
+    </div>
+  </div>
+</nav>

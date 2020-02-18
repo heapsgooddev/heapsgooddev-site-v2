@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <!-- head -->
+  {% include '_header.html' %}
+
+  <!-- body -->
+  <body class="page page-{{base_route}}">
+    <!-- set some globals - these are used to determine page state within js -->
+    <script> 
+      window.__GLOBALS__ = window.__GLOBALS__ || {}
+      window.__GLOBALS__.isHomePage = {{"true" if (base_route == "home") else "false"}}
+    </script>
+
+    <!-- navbar -->
+    {% include '_nav.html' %}
+
+    <!-- page content -->
+    <main class="outer-wrapper">
+      <section class="content__outer-wrapper">
+        <div class="content__inner-wrapper">
+          {{ content | safe }}
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <!-- footer -->
+  {% include '_footer.html' %}
+</html>

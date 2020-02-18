@@ -1,0 +1,58 @@
+.blog-post {
+  display: grid;
+}
+
+/* header */
+.blog-post__header__image {
+  background-position: center;
+  background-size: cover;
+  height: 28rem;
+  width: 100%;
+  position: relative;
+}
+
+.blog-post__header__image__image {
+  z-index: +1 !important; /* silly override for image fadein */
+}
+
+.blog-post__header__image__image:before {
+  border: 0.35rem solid var(--color-primary-on-bg);
+}
+
+.blog-post__header__image__placeholder {
+  background-color: var(--color-placeholder-bg);
+  border-style: dashed;
+  color: var(--color-placeholder-highlight);
+  height: 100%;
+  width: 100%;
+}
+
+.blog-post__header__title {
+  margin-top: 1em;
+}
+
+.blog-post__header__meta {
+  font-family: "Fira Mono", monospace;
+  color: var(--color-secondary);
+  font-weight: 700;
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.blog-post__header__meta li {
+  list-style: none;
+}
+
+.blog-post__header__meta li:not(:first-of-type)::before {
+  content: "●";
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+/* post embedded images */
+.blog-post img {
+  margin: 5%;
+  width: 90%;
+  border: 0.35rem solid var(--color-primary-on-bg);
+}

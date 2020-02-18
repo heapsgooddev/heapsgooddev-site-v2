@@ -1,0 +1,21 @@
+{% macro sigBlock( authorId, authorsdata ) %}
+    {% set author = authorsdata[authorId] %}
+    <section class="author">
+        <div class="author__logo__profile-pic">
+            <div role="presentation" class="author__logo__profile-pic__img-preview"></div>
+            <div class="img--lazy-load" role="img" aria-label="{{ author.firstName }} profile" data-src="/author-images/{{ authorId }}.png"></div>
+        </div>
+        <div class="author__details">
+            <h4>{{ author.firstName }} {{ author.lastName }}</h4>
+            {% if author.twitter %}
+                <a
+                    aria-label="twitter link"
+                    rel="noopener"
+                    class="author__details__link external-icon--exempt"
+                    href="https://twitter.com/{{ author.twitter }}"
+                    target="_blank"
+                >@{{ author.twitter }}</a>
+            {% endif %}
+        <div>
+    </section>
+{% endmacro %}

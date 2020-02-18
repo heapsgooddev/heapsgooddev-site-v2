@@ -1,0 +1,10 @@
+---
+layout: page-default
+---
+{% import "_card.njk" as cardInclude %}
+
+{% for post in collections.post | reverse %} 
+    {% if post.data.published %}
+        {{ cardInclude.cardBlock(post.url, "/blog-images/" + post.data.slug + ".png", post.data.title, post.date, post.data.tags ) }}
+    {% endif %} 
+{% endfor %}

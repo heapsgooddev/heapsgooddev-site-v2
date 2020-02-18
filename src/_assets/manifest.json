@@ -1,0 +1,15 @@
+{
+  "short_name": "heapsgood.dev",
+  "name": "heapsgood.dev",
+  "icons": [
+    {
+      "src": "favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./",
+  "display": "standalone",
+  "theme_color": "#44a4ec",
+  "background_color": "#000000"
+}
