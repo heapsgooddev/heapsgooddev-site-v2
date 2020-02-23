@@ -1,5 +1,5 @@
 ---
-title: Example Page
+title: This is an Example Page. Do you enjoy it?
 published: true
 description: What what 😲...
 tags: ["post", "nvm", "windows", "node", "beginners"]
