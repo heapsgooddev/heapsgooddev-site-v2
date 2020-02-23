@@ -1,12 +1,10 @@
 ---
+title: HEAPS GOOD DEV CODE OF CONDUCT
 layout: blog
 base_route: conduct
 date: 2020-02-23
 authors: ["scottcabot"]
 ---
-
-# HEAPS GOOD DEV CODE OF CONDUCT
-
 ## PURPOSE
 Heaps Good Dev was started with a goal to build a community for people who are interested in software development and technology. We want to provide a fun, welcoming and professional environment for everybody - regardless of age, experience, race, gender identity or expression, background, disability, appearance, sexuality, walk of life, or religion.
 
