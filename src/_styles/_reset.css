@@ -1,0 +1,31 @@
+/*
+ * reset default browser css
+ */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+a,
+a:visited,
+a:active {
+  color: inherit;
+  text-decoration-color: inherit;
+}

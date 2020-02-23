@@ -1,0 +1,48 @@
+:root {
+  /* colors */
+  --color-primary: #000;
+  --color-secondary: #44a4ec;
+  --color-accent1: #44a4ec;
+  --color-accent2: #44a4ec;
+  --color-white: #fff;
+  --color-primary-bg: #fff;
+  --color-primary-on-bg: #000;
+  --color-primary-on-bg-hover: #44a4ec;
+  --color-on-primary: #000;
+  --color-on-primary-border: #fff;
+  --color-emphasis-bg: #f4f4f4;
+  --color-placeholder-highlight: #e3e3e3;
+  --color-placeholder-bg: #fafafa;
+  /* code block colors */
+  --color-code-block-bg: #f4f4f4;
+  --color-code-block-selection-bg: #ddd6ee;
+  --color-code-block-default: #000;
+  --color-code-block-comment: #9c9c9c;
+  --color-code-block-keyword: #44a4ec;
+  /* breakpoints */
+  --media-xs: 320px;
+  --media-sm: 576px;
+  --media-md: 768px;
+  --media-lg: 992px;
+  --media-xl: 1200px;
+  /* layout */
+  --layout-main-logo-width: 190px;
+  --layout-main-logo-width-md: 355px;
+  --layout-main-logo-width-sm: 300px;
+  --layout-main-logo-size: 340px;
+  --layout-main-logo-size-md: 400px;
+  --layout-main-logo-size-sm: 300px;
+  --layout-main-logo-font-size: 6rem;
+  --layout-main-logo-font-size-md: 4rem;
+  --layout-main-logo-font-size-sm: 3.5rem;
+  --layout-main-icon-size: 2.5rem;
+  --layout-navbar-height: 5.75rem;
+  --layout-navbar-hamburger-offset-top: 2.25rem;
+  --layout-content-max-width: 63rem;
+  --layout-content-default-gutter: 1.5rem;
+  /* drop shadows */
+  --shadow-navbar-active: 0px -9px 20px 15px #eeeeee;
+  --shadow-card-hover: 6px 9px 20px 0px #eeeeee;
+  /* misc */
+  --navbar-item-count: 2; /* number of navbar items - makes calcs easier */
+}

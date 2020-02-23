@@ -1,0 +1,88 @@
+/* card layout */
+.card {
+  transform: translateY(0);
+  /* box-shadow: 4px 6px 20px 0 #f7f7f7; */
+}
+
+.card:hover,
+.card:focus {
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-0.15rem);
+  transition: transform 0.1s ease-in;
+}
+
+/* make the title act like other heading links */
+.card:hover .card__title,
+.card:focus .card__title {
+  text-decoration: underline;
+  text-decoration-color: var(--color-secondary);
+}
+
+/* wrapper link within card */
+.card a {
+  display: flex;
+  padding: 1.5rem;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+/* reset card anchor hover colors */
+.card a:hover,
+.card a:focus {
+  color: inherit;
+}
+
+/* card display image */
+.card__image {
+  height: 15rem;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.card__image__image {
+  z-index: +1 !important; /* silly override for image fadein */
+}
+
+.card__image__image:before {
+  border: 0.25rem solid currentColor;
+}
+
+.card__image__placeholder {
+  background-color: var(--color-placeholder-bg);
+  border-style: dashed;
+  color: var(--color-placeholder-highlight);
+  height: 100%;
+  width: 100%;
+}
+
+/* card heading */
+.card__title {
+  margin-top: 0.6em;
+  min-height: 8.25rem;
+}
+
+.card__meta {
+  font-family: "Fira Mono", monospace;
+  color: var(--color-secondary);
+  font-weight: 700;
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+/* reset meta tag spacing */
+.card__meta {
+  margin: 0 0 0.25rem;
+}
+
+.card__meta li {
+  list-style: none;
+}
+
+.card__meta li:not(:first-of-type)::before {
+  content: "●";
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
