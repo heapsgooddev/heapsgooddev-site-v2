@@ -6,10 +6,10 @@ layout: page-default
 <article class="blog-post content__inner--full-width">
     <!-- header title + image .etc -->
     <header class="blog-post__header">
-        {% if slug %}
+        {% if heroimage %}
             <div class="blog-post__header__image">
             <div role="presentation" class="blog-post__header__image__placeholder"></div>
-            <div class="blog-post__header__image__image img--lazy-load" data-src="/blog-images/{{ slug }}.png"
+            <div class="blog-post__header__image__image img--lazy-load" data-src="/blog-images/{{ heroimage }}"
                 role="img" aria-label="{{ title }}">
             </div>
             </div>

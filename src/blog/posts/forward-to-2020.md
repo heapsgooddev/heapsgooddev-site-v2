@@ -1,5 +1,6 @@
 ---
 title: Looking forward to 2020
+heroimage: forward-to-2020.jpg
 published: true
 description: Moving Heaps Good Dev from PoC to MVP.
 tags: ["post", "meta"]

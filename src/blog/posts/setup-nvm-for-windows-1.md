@@ -1,5 +1,6 @@
 ---
 title: This is an Example Page. Do you enjoy it?
+heroimage: setup-nvm-for-windows-1.png
 published: true
 description: What what 😲...
 tags: ["post", "nvm", "windows", "node", "beginners"]
