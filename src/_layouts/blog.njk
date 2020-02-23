@@ -6,11 +6,14 @@ layout: page-default
 <article class="blog-post content__inner--full-width">
     <!-- header title + image .etc -->
     <header class="blog-post__header">
-        <div class="blog-post__header__image">
+        {% if slug %}
+            <div class="blog-post__header__image">
             <div role="presentation" class="blog-post__header__image__placeholder"></div>
             <div class="blog-post__header__image__image img--lazy-load" data-src="/blog-images/{{ slug }}.png"
-                role="img" aria-label="{{ title }}"></div>
-        </div>
+                role="img" aria-label="{{ title }}">
+            </div>
+            </div>
+        {% endif %}
         <h1 class="blog-post__header__title">{{ title }}</h1>
         <ul class="blog-post__header__meta">
             <li>{{ page.date | date }}</li>
