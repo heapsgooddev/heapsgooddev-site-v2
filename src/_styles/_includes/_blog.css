@@ -32,7 +32,7 @@
 }
 
 .blog-post__header__meta {
-  font-family: "Fira Mono", monospace;
+  font-family: 'Fira Mono', monospace;
   color: var(--color-secondary);
   font-weight: 700;
   display: flex;
@@ -44,10 +44,17 @@
   list-style: none;
 }
 
+.blog-post__header__meta li::before {
+  content: '';
+}
+
 .blog-post__header__meta li:not(:first-of-type)::before {
-  content: "●";
+  content: '●';
   margin-left: 0.5em;
   margin-right: 0.5em;
+  font-size: 0.8em;
+  position: relative;
+  left: initial;
 }
 
 /* post embedded images */

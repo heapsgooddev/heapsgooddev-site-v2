@@ -35,3 +35,9 @@
   font-size: 0.8em;
   text-transform: none;
 }
+
+.footer .footer__profile-legal {
+  text-transform: lowercase;
+  font-size: 0.75em;
+  padding-top: 2rem;
+}

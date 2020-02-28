@@ -48,5 +48,18 @@ main.outer-wrapper,
 
 /* quick hack to put fira code as the prism display font */
 pre.prism-code.builtin-prism-theme {
-  font-family: "FuraCode Nerd Font Mono", monospace;
+  font-family: 'FuraCode Nerd Font Mono', monospace;
+}
+
+/* change list style */
+.content__inner-wrapper li {
+  margin: 0em 0 0.25em;
+  list-style: none;
+}
+
+.content__inner-wrapper li::before {
+  content: '●';
+  position: absolute;
+  left: 0.75rem;
+  color: var(--color-secondary);
 }
