@@ -4,7 +4,7 @@
 }
 
 .footer .footer__inner-wrapper {
-  border-top: solid #f7f7f7 0.25rem;
+  border-top: var(--border-footer-seperator);
   max-width: 63rem;
   width: 100%;
   padding: 2rem 1.5rem 5rem;

@@ -6,7 +6,7 @@
             <div class="img--lazy-load" role="img" aria-label="{{ author.firstName }} profile" data-src="/author-images/{{ authorId }}.png"></div>
         </div>
         <div class="author__details">
-            <h4>{{ author.firstName }} {{ author.lastName }}</h4>
+            <h4 class="author__details__name">{{ author.firstName }} {{ author.lastName }}</h4>
             {% if author.twitter %}
                 <a
                     aria-label="twitter link"

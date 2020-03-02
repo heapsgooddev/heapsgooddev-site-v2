@@ -7,7 +7,7 @@ body {
 
 body {
   background-color: var(--color-primary-bg);
-  color: var(--color-on-primary);
+  color: var(--color-on-primary-text);
   font-size: 1.25rem;
 }
 
@@ -103,6 +103,14 @@ h3 {
   font-size: 2.25rem;
 }
 
+h4 {
+  font-size: 1.75rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
 /* body */
 p {
   margin: 0 0 1em;
@@ -154,4 +162,9 @@ hr::after {
   left: calc(50% - 1rem);
   display: block;
   box-sizing: border-box;
+}
+
+.img--lazy-load.img--bg-single::before {
+  background-size: contain;
+  background-repeat: no-repeat;
 }

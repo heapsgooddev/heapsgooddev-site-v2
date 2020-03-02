@@ -9,6 +9,7 @@
   --color-primary-on-bg: #000;
   --color-primary-on-bg-hover: #44a4ec;
   --color-on-primary: #000;
+  --color-on-primary-text: #101010;
   --color-on-primary-border: #fff;
   --color-emphasis-bg: #f4f4f4;
   --color-placeholder-highlight: #e3e3e3;
@@ -46,6 +47,8 @@
   --shadow-navbar-active: 0px -9px 20px 15px #eeeeee;
   --shadow-card: 6px 9px 20px 0px #f7f7f7;
   --shadow-card-hover: 6px 9px 20px 0px #eeeeee;
+  /* borders */
+  --border-footer-seperator: solid #fafafa 0.25rem;
   /* misc */
   --navbar-item-count: 2; /* number of navbar items - makes calcs easier */
 }
