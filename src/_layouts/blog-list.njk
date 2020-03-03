@@ -5,6 +5,6 @@ layout: page-default
 
 {% for post in collections.post | reverse %} 
     {% if post.data.published %}
-        {{ cardInclude.cardBlock(post.url, "/blog-images/" + post.data.slug + ".png", post.data.title, post.date, post.data.tags ) }}
+        {{ cardInclude.cardBlock(post.url, "/blog-images/" + post.data.slug + ".jpg", post.data.title, post.date, post.data.tags ) }}
     {% endif %} 
 {% endfor %}
