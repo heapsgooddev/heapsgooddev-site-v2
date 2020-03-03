@@ -36,6 +36,15 @@
       <p>
         Made with ☕️, from adelaide.
       </p>
+      <br/>
+      <p>
+        Icons made by 
+        {% for iconAuthor in attributiondata.flaticon.authors | list %}
+          <a aria-label="freepik" href="{{ iconAuthor.link }}" rel="noopener" target="_blank">{{ iconAuthor.name }}</a> ,
+        {% endfor %}
+        from <a aria-label="freepik" href="{{ attributiondata.flaticon.link }}" rel="noopener" target="_blank">freepik.com</a>
+      </p>
+      <br/>
       <p>
         © 2020
       </p>
