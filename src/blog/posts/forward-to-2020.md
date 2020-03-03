@@ -1,11 +1,11 @@
 ---
-title: Looking forward to 2020
+title: Heaps Good 2020; Looking Forward to a massive year
 published: true
-description: Moving Heaps Good Dev from PoC to MVP.
-tags: ["post", "meta"]
+description: Moving Heaps Good Dev from PoC to MVP. What's happened and where 2020 can take us.
+tags: ['post', 'meta-post', 'announcement', 'heapsgood']
 slug: forward-to-2020
 date: 2020-02-23
-authors: ["hgd", "scottcabot"]
+authors: ['heapsgood', 'scottcabot']
 ---
 
 ## Looking Back
@@ -36,12 +36,11 @@ As our community grows so does the need for some founding principles for both th
 
 ### New Event Format
 
-As mentioned above this year will be all about experimentation and our first official event for the year can be found on [meetup.com](https://www.meetup.com/heapsgooddev/events/268923125/). We will be running a pilot Code Jam event for a small number of people. Join us for a social time as we all work on our side projects together. It's great for motivation and a fantastic opportunity for people to provide meaningful feedback on your work.
+As mentioned above this year will be all about experimentation and our first official event for the year can be found on [meetup.com](#). We will be running a pilot Code Jam event for a small number of people. Join us for a social time as we all work on our side projects together. It's great for motivation and a fantastic opportunity for people to provide meaningful feedback on your work.
 
 ### Merch
 
 For those who may be new to our community and as a reminder to our regulars, we have a [merch store](https://www.redbubble.com/people/heapsgooddev/shop) where you can buy some cool dev swag. As Dan is one of our co-organisers there is guaranteed to be some new merch in 2020 (he really can't help himself) so make you check back regularly for some fresh threads.
-
 
 ### Feedback
 

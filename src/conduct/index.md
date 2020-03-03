@@ -1,18 +1,22 @@
 ---
-title: HEAPS GOOD DEV CODE OF CONDUCT
-layout: blog
+title: Code of Conduct
+layout: code-of-conduct
 base_route: conduct
 date: 2020-02-23
-authors: ["hgd"]
+slug: conduct
+authors: ['heapsgood']
 ---
-## PURPOSE
+
+### PURPOSE
+
 Heaps Good Dev was started with a goal to build a community for people who are interested in software development and technology. We want to provide a fun, welcoming and professional environment for everybody - regardless of age, experience, race, gender identity or expression, background, disability, appearance, sexuality, walk of life, or religion.
 
 We are dedicated to making this a welcoming, harassment-free space. We invite all attendees, speakers, volunteers, sponsors, and other participants to help us realise a safe and positive community experience for everyone. We assist in this by promoting a strict zero tolerance policy on any form of harassment of Heaps Good Dev members, the members of the meetups who share our Slack, or any members of the public.
 
 We have only one requirement to join - and that's to treat others with respect according to this Code of Conduct.
 
-## UNACCEPTABLE BEHAVIOUR
+### UNACCEPTABLE BEHAVIOUR
+
 As part of providing a safe environment we encourage our community to reach out in the event of unacceptable behaviour so that we may take appropriate action.
 
 Examples of unacceptable behaviour include, but are not limited to:
@@ -26,29 +30,34 @@ Examples of unacceptable behaviour include, but are not limited to:
 - Unwelcome sexual attention
 - Advocating for, or encouraging, any of the above behaviour
 
-## CONSEQUENCES OF UNACCEPTABLE BEHAVIOUR
+### CONSEQUENCES OF UNACCEPTABLE BEHAVIOUR
+
 Unacceptable behaviour will not be tolerated of attendees, speakers, volunteers, sponsors, and other participants of our community, including its organisers.
 
 If a community member engages in unacceptable behaviour, the community organisers may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from the community without warning (and without refund in the case of a paid event).
 
-## SCOPE
-All attendees, speakers, volunteers, sponsors and guests of Heaps Good Dev events and members of the Heaps Good Dev Slack will be held to this Code of Conduct.  Members of meetups within the Heaps Good Dev community should refer to the Code of Conduct for those communities when attending events help by the respective meetups.
+### SCOPE
 
-## REPORTING
-If someone makes you or anyone else feel unsafe or unwelcome, we encourage you to please report it as soon as possible.  You can make a report either personally or anonymously.
+All attendees, speakers, volunteers, sponsors and guests of Heaps Good Dev events and members of the Heaps Good Dev Slack will be held to this Code of Conduct. Members of meetups within the Heaps Good Dev community should refer to the Code of Conduct for those communities when attending events help by the respective meetups.
 
-If you feel comfortable you may reach out to one of the named contacts below who have volunteered to receive reports, or you may email us anonymously at [team@heapsgood.dev](mailto:team@heapsgood.dev).
+### REPORTING
 
-| Name | Slack Handle | Role |
-|---|---|---|
-| Dan Harris | @danharris | Heaps Good Dev Co-Organiser |
-| Scott Cabot | @Scott Cabot | Heaps Good Dev Co-Organiser |
-| Jakob Pennington | @Jakob Pennington | Heaps Good Dev Co-Organiser |
+If someone makes you or anyone else feel unsafe or unwelcome, we encourage you to please report it as soon as possible. You can make a report either personally or anonymously.
 
-## QUESTIONS
-As our community evolves so will our Code of Conduct. If you have any questions, or would like to make suggestions about the Code please email us at [team@heapsgood.dev](mailto:team@heapsgood.dev). 
+If you feel comfortable you may reach out to one of the named contacts below (via the [Heaps Good Dev Slack](https://join.slack.com/t/heapsgooddev/shared_invite/enQtNjkxODI4NDc0NzA4LTQ1NzE4ZTkwNjAyODAzYzA5NDBlNDc5OTQ4ODc2ZWJiNzU0MzAyODg0ZTJjMTA0YWM2ZDEzZjM4NjIyMDY3OGY)), or you may email us anonymously at [team@heapsgood.dev](mailto:team@heapsgood.dev).
 
-## LICENSE AND ATTRIBUTION
+| Name             | Slack Handle      |
+| ---------------- | ----------------- |
+| Dan Harris       | @danharris        |
+| Scott Cabot      | @Scott Cabot      |
+| Jakob Pennington | @Jakob Pennington |
+
+### QUESTIONS
+
+As our community evolves so will our Code of Conduct. If you have any questions, or would like to make suggestions about the Code please email us at [team@heapsgood.dev](mailto:team@heapsgood.dev).
+
+### LICENSE AND ATTRIBUTION
+
 This Code of Conduct has been inspired by the awesome work of many other communities including:
 
 - [https://wpaustralia.org/code-of-conduct/](https://wpaustralia.org/code-of-conduct/)
