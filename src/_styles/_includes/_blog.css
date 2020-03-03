@@ -4,7 +4,7 @@
 
 /* header */
 .blog-post__header {
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 .blog-post__header__image {
@@ -75,4 +75,11 @@
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: 1fr 1fr;
+}
+
+/* single column layout for mobile */
+@media (max-width: 768px) {
+  .blog-post__authors {
+    grid-template-columns: 1fr;
+  }
 }

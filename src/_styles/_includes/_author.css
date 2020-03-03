@@ -37,11 +37,5 @@
 }
 
 .author__details__name {
-  margin: 0;
   margin: 0.125rem 0;
-  font-size: 1.5rem;
-}
-
-.author__details__link {
-  text-decoration: none;
 }
