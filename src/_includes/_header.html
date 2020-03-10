@@ -3,11 +3,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="Description"
-    content="{{ description if description else "official landing page for heaps good dev - community of developers & tech peeps in adelaide" }}" />
+    content="{{ description if description else "official site for heaps good dev - community of developers & tech peeps in adelaide" }}" />
   <meta name="theme-color" content="#000000" />
   <meta property="og:title" content="{{ title if title else "heapsgood.dev" }}">
   <meta property="og:description"
-    content="{{ description if description else "official landing page for heaps good dev - community of developers & tech peeps in adelaide" }}">
+    content="{{ description if description else "official site for heaps good dev - community of developers & tech peeps in adelaide" }}">
   <meta property="og:image"
     content="https://heapsgood.dev/{{ base_route if (base_route) and (base_route != 'home') }}{{ "-images/" if (base_route) and (base_route != 'home') }}{{ slug if slug else "heapsgooddev-social" }}.jpg">
   <meta property="og:url"
@@ -25,5 +25,7 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"
     ></script>
   <![endif]-->
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500|Fjalla+One&display=swap" rel="stylesheet" />
+  {# <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500|Fjalla+One&display=swap" rel="stylesheet" /> #}
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500|Fjalla+One&display=swap"  as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500|Fjalla+One&display=swap" ></noscript>
 </head>
