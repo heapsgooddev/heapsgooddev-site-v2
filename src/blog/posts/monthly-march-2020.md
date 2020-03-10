@@ -2,7 +2,7 @@
 title: HGD Monthly March; What's going on in Radelaide?
 published: true
 description: Moving Heaps Good Dev from PoC to MVP. What's happened and where 2020 can take us.
-tags: ['post', 'monthly', 'march', 'adelaide dev']
+tags: ['post', 'monthly', 'march', 'adelaide']
 slug: monthly-march-2020
 date: 2020-03-05
 authors: ['heapsgood', 'danharris']

@@ -36,7 +36,7 @@ As our community grows so does the need for some founding principles for both th
 
 ### New Event Format
 
-As mentioned above this year will be all about experimentation and our first official event for the year can be found on [meetup.com](#). We will be running a pilot Code Jam event for a small number of people. Join us for a social time as we all work on our side projects together. It's great for motivation and a fantastic opportunity for people to provide meaningful feedback on your work.
+As mentioned above this year will be all about experimentation and our first official event for the year can be found on [meetup.com](https://www.meetup.com/heapsgooddev/events/268923125/). We will be running a pilot Code Jam event for a small number of people. Join us for a social time as we all work on our side projects together. It's great for motivation and a fantastic opportunity for people to provide meaningful feedback on your work.
 
 ### Merch
 
