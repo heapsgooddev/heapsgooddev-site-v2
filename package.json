@@ -29,7 +29,8 @@
   },
   "homepage": "https://github.com/heapsgooddev/heapsgooddev-site-v2#readme",
   "dependencies": {
-    "background-image-fade-in": "^0.4.4"
+    "background-image-fade-in": "^0.4.4",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
@@ -52,14 +53,17 @@
     "cross-env": "^5.2.0",
     "css-loader": "^1.0.1",
     "cz-conventional-changelog": "^2.1.0",
+    "domino": "^2.1.4",
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^4.2.3",
     "image-webpack-loader": "^4.5.0",
     "lint-staged": "^10.0.7",
     "markdown-it": "^10.0.0",
+    "markdown-it-custom-block": "^0.1.1",
     "markdown-it-prism": "^2.0.3",
     "mini-css-extract-plugin": "^0.4.4",
+    "page-metadata-parser": "^1.1.4",
     "path": "^0.12.7",
     "postcss-custom-properties": "^8.0.9",
     "postcss-loader": "^3.0.0",
