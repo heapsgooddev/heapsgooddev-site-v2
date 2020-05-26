@@ -1,19 +1,19 @@
 html,
 body {
-  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
   /* this is used for all sizing (rem). */
   font-size: 16px;
 }
 
 body {
   background-color: var(--color-primary-bg);
-  color: var(--color-on-primary);
+  color: var(--color-on-primary-text);
   font-size: 1.25rem;
 }
 
 /* hide focus outline (will be enabled on first keyboard usage) */
 body:not(.show-focus) *:focus,
-body:not(.show-focus) input[type="checkbox"]:focus ~ label {
+body:not(.show-focus) input[type='checkbox']:focus ~ label {
   outline: none;
 }
 
@@ -25,7 +25,7 @@ body:not(.show-focus) input[type="checkbox"]:focus ~ label {
 }
 
 /* need to keep focus for custom input elements */
-input[type="checkbox"]:focus ~ label {
+input[type='checkbox']:focus ~ label {
   outline-color: var(--color-secondary);
   outline-width: 0.25rem;
   outline-style: dashed;
@@ -59,9 +59,10 @@ a:active {
 }
 
 /* default external link icon */
-a[href^="https://"]:not(.external-icon--exempt)::after {
-  content: " ↗";
-  font-family: "FuraCode Nerd Font Mono", "Fira Sans", sans-serif;
+a[href^="https://"]:not(.external-icon--exempt)::after,
+a[href^="mailto:"]:not(.external-icon--exempt)::after {
+  content: ' ↗';
+  font-family: 'Fira Code', 'Fira Sans', sans-serif;
   position: relative;
   font-weight: 600;
   margin-left: 0.1em;
@@ -74,11 +75,18 @@ a[href^="https://"]:not(.external-icon--exempt)::after {
 h1,
 h2,
 h3,
-h4 {
-  font-family: "Fjalla One", "Fira Sans", Arial, Helvetica, sans-serif;
+h4,
+th {
+  font-family: 'Fjalla One', 'Fira Sans', Arial, Helvetica, sans-serif;
   letter-spacing: -0.05rem;
   text-transform: uppercase;
   font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
   margin-bottom: 0.5em;
   margin-top: 1.25em;
 }
@@ -95,6 +103,41 @@ h3 {
   font-size: 2.25rem;
 }
 
+h4 {
+  font-size: 1.75rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+/* body */
+p {
+  margin: 0 0 1em;
+}
+
+/* lists */
+ul,
+ol {
+  position: relative;
+}
+
+/* tables */
+table {
+  padding: 1em 0;
+}
+
+thead::after {
+  padding: 0.25em;
+  content: '';
+  display: block;
+}
+
+th {
+  text-align: left;
+  font-size: 1.25em;
+}
+
 /* texty-rexty */
 hr {
   width: 90%;
@@ -108,7 +151,7 @@ hr {
 }
 
 hr::after {
-  content: "";
+  content: '';
   border: 0.25rem solid var(--color-secondary);
   border-top: none;
   border-bottom: none;
@@ -119,4 +162,9 @@ hr::after {
   left: calc(50% - 1rem);
   display: block;
   box-sizing: border-box;
+}
+
+.img--lazy-load.img--bg-single::before {
+  background-size: contain;
+  background-repeat: no-repeat;
 }

@@ -1,19 +1,20 @@
 /* css variables */
-@import "_root.css";
+@import '_root.css';
 /* browser reset */
-@import "_reset.css";
+@import '_reset.css';
 /* embedded font */
-@import "_font.css";
+@import '_font.css';
 /* base css */
-@import "_base.css";
-@import "_base-content.css";
+@import '_base.css';
+@import '_base-content.css';
 
 /* element styles */
-@import "./_includes/_blog-list.css";
-@import "./_includes/_blog.css";
-@import "./_includes/_author.css";
-@import "./_includes/_card.css";
-@import "./_includes/_footer.css";
-@import "./_includes/_nav.css";
-@import "./_includes/_portfolio-splash.css";
-@import "./_themes/_prism-theme-light.css";
+@import './_includes/_blog-list.css';
+@import './_includes/_blog.css';
+@import './_includes/_author.css';
+@import './_includes/_card.css';
+@import './_includes/_footer.css';
+@import './_includes/_nav.css';
+@import './_includes/_metadata-block.css';
+@import './_includes/_portfolio-splash.css';
+@import './_themes/_prism-theme-light.css';

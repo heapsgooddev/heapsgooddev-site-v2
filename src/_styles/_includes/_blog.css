@@ -3,6 +3,10 @@
 }
 
 /* header */
+.blog-post__header {
+  margin-bottom: 2.5rem;
+}
+
 .blog-post__header__image {
   background-position: center;
   background-size: cover;
@@ -29,25 +33,35 @@
 
 .blog-post__header__title {
   margin-top: 1em;
+  margin-bottom: 0.5rem;
 }
 
 .blog-post__header__meta {
-  font-family: "Fira Mono", monospace;
+  font-family: 'Fira Mono', monospace;
   color: var(--color-secondary);
   font-weight: 700;
   display: flex;
   padding: 0;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
+  margin-top: 0;
 }
 
 .blog-post__header__meta li {
   list-style: none;
 }
 
+.blog-post__header__meta li::before {
+  content: '';
+}
+
 .blog-post__header__meta li:not(:first-of-type)::before {
-  content: "●";
+  content: '●';
   margin-left: 0.5em;
   margin-right: 0.5em;
+  font-size: 0.8em;
+  position: relative;
+  left: initial;
 }
 
 /* post embedded images */
@@ -55,4 +69,17 @@
   margin: 5%;
   width: 90%;
   border: 0.35rem solid var(--color-primary-on-bg);
+}
+
+.blog-post__authors {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* single column layout for mobile */
+@media (max-width: 768px) {
+  .blog-post__authors {
+    grid-template-columns: 1fr;
+  }
 }

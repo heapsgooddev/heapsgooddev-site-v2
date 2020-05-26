@@ -22,5 +22,32 @@
         {% include 'icons/_redbubble.html' %}
       </a>
     </div>
+    <div class="footer__profile-legal">
+      <p>
+        <a aria-label="code of conduct link" href="/conduct">
+          Code of Conduct
+        </a>
+      </p>
+      <p>
+        <a aria-label="contact link" href="mailto:team@heapsgood.dev">
+          team@heapsgood.dev
+        </a>
+      </p>
+      <p>
+        Made with ☕️, from adelaide.
+      </p>
+      <br/>
+      <p>
+        Icons made by 
+        {% for iconAuthor in attributiondata.flaticon.authors | list %}
+          <a aria-label="freepik" href="{{ iconAuthor.link }}" rel="noopener" target="_blank">{{ iconAuthor.name }}</a> ,
+        {% endfor %}
+        from <a aria-label="freepik" href="{{ attributiondata.flaticon.link }}" rel="noopener" target="_blank">freepik.com</a>
+      </p>
+      <br/>
+      <p>
+        © 2020
+      </p>
+    </div>
   </div>
 </footer>

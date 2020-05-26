@@ -14,7 +14,7 @@
             <span class="card__meta">{{ publishDate | date }}</span>
             <ul class="card__meta">
                 {% for tag in displayTags %} 
-                    {% if tag != 'post' %}
+                    {% if tag != 'post' and tag != 'meta-post' %}
                     <li>{{ tag | trim }}</li>
                     {% endif %} 
                 {% endfor %}

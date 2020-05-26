@@ -1,7 +1,7 @@
 /* card layout */
 .card {
   transform: translateY(0);
-  /* box-shadow: 4px 6px 20px 0 #f7f7f7; */
+  box-shadow: var(--shadow-card);
 }
 
 .card:hover,
@@ -64,7 +64,7 @@
 }
 
 .card__meta {
-  font-family: "Fira Mono", monospace;
+  font-family: 'Fira Mono', monospace;
   color: var(--color-secondary);
   font-weight: 700;
   display: flex;
@@ -82,7 +82,14 @@
 }
 
 .card__meta li:not(:first-of-type)::before {
-  content: "●";
+  content: '●';
   margin-left: 0.5em;
   margin-right: 0.5em;
+  font-size: 0.8em;
+  position: relative;
+  left: initial;
+}
+
+.card__meta li::before {
+  content: '';
 }

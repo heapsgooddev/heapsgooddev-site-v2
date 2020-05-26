@@ -6,18 +6,18 @@
     "linkedin": "",
     "website": ""
   },
+  "heapsgood": {
+    "firstName": "Heaps Good",
+    "lastName": "Dev",
+    "twitter": "heapsgooddev",
+    "linkedin": "",
+    "website": ""
+  },
   "scottcabot": {
     "firstName": "Scott",
     "lastName": "Cabot",
     "twitter": "iamscottcab",
     "linkedin": "",
     "website": "https://scott.cab"
-  },
-  "hgd": {
-    "firstName": "Heaps",
-    "lastName": "Good Dev",
-    "twitter": "heapsgooddev",
-    "linkedin": "",
-    "website": ""
   }
 }

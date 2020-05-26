@@ -1,0 +1,62 @@
+.metadata-block {
+  height: 12.5rem;
+  padding: 1.5rem;
+  display: flex;
+}
+
+.metadata-block__card,
+a.metadata-block__card:visited,
+a.metadata-block__card:active {
+  overflow: hidden;
+  display: flex;
+  box-shadow: var(--shadow-card);
+  padding: 1rem;
+  text-decoration: none;
+  transform: translateY(0);
+  color: initial;
+}
+
+.metadata-block__card:hover,
+.metadata-block__card:focus {
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-0.15rem);
+  transition: transform 0.1s ease-in;
+}
+
+.metadata-block__card:hover .metadata-block__card__info p,
+.metadata-block__card:active .metadata-block__card__info p {
+  color: initial;
+}
+
+.metadata-block__card:active .metadata-block__card__info h4,
+.metadata-block__card:hover .metadata-block__card__info h4 {
+  text-decoration: underline;
+  text-decoration-color: var(--color-secondary);
+  color: initial;
+}
+
+.metadata-block__card img {
+  width: 10rem;
+  margin: 0;
+  border: 0.3rem solid var(--color-primary);
+}
+
+.metadata-block__card__info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5rem;
+}
+
+.metadata-block__card__info h4 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.metadata-block__card__info p {
+  height: 4.5rem;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  white-space: normal;
+}

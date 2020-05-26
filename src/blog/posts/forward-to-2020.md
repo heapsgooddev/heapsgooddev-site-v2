@@ -1,18 +1,18 @@
 ---
-title: Looking forward to 2020
+title: Heaps Good 2020; Looking Forward to a massive year
 published: true
-description: Moving Heaps Good Dev from PoC to MVP.
-tags: ["post", "meta"]
+description: Moving Heaps Good Dev from PoC to MVP. What's happened and where 2020 can take us.
+tags: ['post', 'meta-post', 'announcement', 'heapsgood']
 slug: forward-to-2020
 date: 2020-02-23
-authors: ["hgd", "scottcabot"]
+authors: ['heapsgood', 'scottcabot']
 ---
-
-## Looking Back
 
 In 2019 we launched Heaps Good Dev with the intent to bring together and grow the South Australian development community. We were really happy with everyone's eagerness to jump on board and help grow Heaps Good Dev. The response in our Slack, by members of public, the event organisers and event sponsors, has been extremely exciting for us.
 
 With that being said 2019 was very much a Proof of Concept for Heaps Good Dev. A concept we feel worked well but we would love to iterate on this year.
+
+---
 
 ## Looking Forward
 
@@ -24,7 +24,7 @@ We have already taken some steps to help make this possible.
 
 If you're reading this then you might have noticed the Heaps Good Dev website has had a major refresh. We hope to add regular content to the blog, especially if we can highlight local developers articles, talks and events. A big thanks to Dan Harris for putting together the blog and to Jakob Pennington for automating everything (because isn't that what tech is about?).
 
-### Heaps Good Dev Meetups
+### Heaps Good Dev Meets
 
 The Heaps Good Dev Beers meetup events last year were supposed to counter more of structured talk based events to give members of our community an opportunity to engage with one another socially. While we received positive feedback about the events we noticed we could do more to be more inclusive to our members.
 
@@ -42,6 +42,7 @@ As mentioned above this year will be all about experimentation and our first off
 
 For those who may be new to our community and as a reminder to our regulars, we have a [merch store](https://www.redbubble.com/people/heapsgooddev/shop) where you can buy some cool dev swag. As Dan is one of our co-organisers there is guaranteed to be some new merch in 2020 (he really can't help himself) so make you check back regularly for some fresh threads.
 
+---
 
 ### Feedback
 

@@ -15,17 +15,12 @@
         <li class="navbar__main-nav__link__outer">
           <a class="navbar__main-nav__link {{"active" if (base_route == "blog")}}" href="/blog">blog</a>
         </li>
-        <li class="navbar__main-nav__link__outer">
-          <a class="navbar__main-nav__link {{"active" if (base_route == "conduct")}}"
-            href="/conduct">conduct</a>
-        </li>
         <div class="navbar__main-nav__mobile-menu--shadow navbar--shadow"></div>
       </ul>
     </div>
     <div class="navbar__logo">
       <a class="navbar__logo__profile-pic" href="/" aria-label="home">
-        <div role="presentation" class="navbar__logo__profile-pic__img-preview"></div>
-        <div class="img--lazy-load" role="img" aria-label="heapsgood logo" data-src="/heapsgooddev-profile.jpg"></div>
+        {% include 'icons/_heapsgood.html' %}
       </a>
       <a aria-label="twitter link" rel="noopener" class="navbar__logo__twitter-link external-icon--exempt"
         href="https://twitter.com/heapsgooddev" target="_blank">

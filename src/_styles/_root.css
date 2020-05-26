@@ -9,13 +9,14 @@
   --color-primary-on-bg: #000;
   --color-primary-on-bg-hover: #44a4ec;
   --color-on-primary: #000;
+  --color-on-primary-text: #101010;
   --color-on-primary-border: #fff;
   --color-emphasis-bg: #f4f4f4;
   --color-placeholder-highlight: #e3e3e3;
   --color-placeholder-bg: #fafafa;
   /* code block colors */
   --color-code-block-bg: #f4f4f4;
-  --color-code-block-selection-bg: #ddd6ee;
+  --color-code-block-selection-bg: #d5e5f2;
   --color-code-block-default: #000;
   --color-code-block-comment: #9c9c9c;
   --color-code-block-keyword: #44a4ec;
@@ -41,8 +42,13 @@
   --layout-content-max-width: 63rem;
   --layout-content-default-gutter: 1.5rem;
   /* drop shadows */
+  --shadow-navbar-link-active: 2px 2px white, 2px -2px white, -2px 2px white,
+    -2px -2px white;
   --shadow-navbar-active: 0px -9px 20px 15px #eeeeee;
+  --shadow-card: 6px 9px 20px 0px #f7f7f7;
   --shadow-card-hover: 6px 9px 20px 0px #eeeeee;
+  /* borders */
+  --border-footer-seperator: solid #fafafa 0.25rem;
   /* misc */
   --navbar-item-count: 2; /* number of navbar items - makes calcs easier */
 }
