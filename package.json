@@ -57,7 +57,7 @@
     "husky": "^4.2.3",
     "image-webpack-loader": "^4.5.0",
     "lint-staged": "^10.0.7",
-    "markdown-it": "^10.0.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-prism": "^2.0.3",
     "mini-css-extract-plugin": "^0.4.4",
     "path": "^0.12.7",
